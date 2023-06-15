@@ -1,0 +1,5 @@
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: RunnerDeployment
+status:
+  desiredReplicas: 7
+  availableReplicas: 5

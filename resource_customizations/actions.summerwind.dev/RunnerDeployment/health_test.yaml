@@ -1,0 +1,9 @@
+tests:
+  - healthStatus:
+      status: Healthy
+      message: "Runners Available"
+    inputPath: testdata/healthy-arc-runner-deployment.yaml
+  - healthStatus:
+      status: Progressing
+      message: Waiting for Runners   
+    inputPath: testdata/progressing-arc-runner-deployment.yaml

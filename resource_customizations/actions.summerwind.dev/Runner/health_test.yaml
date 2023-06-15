@@ -1,0 +1,5 @@
+tests:
+  - healthStatus:
+      status: Healthy
+      message: "Runner ready to get job or executing job"
+    inputPath: testdata/healthy-arc-runner.yaml

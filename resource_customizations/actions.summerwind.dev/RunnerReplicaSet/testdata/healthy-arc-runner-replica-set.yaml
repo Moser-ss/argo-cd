@@ -1,0 +1,5 @@
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: RunnerReplicaSet
+status:
+  replicas: 7
+  availableReplicas: 7
